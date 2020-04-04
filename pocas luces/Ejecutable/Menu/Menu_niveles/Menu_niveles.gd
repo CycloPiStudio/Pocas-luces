@@ -18,7 +18,7 @@ func _ready():
 #	pass
 
 func _on_Boton_nivel1_pressed():
-	get_node("/root/Nodo_Dios").Nivel_jugar = 1
+#	get_node("/root/Nodo_Dios").Nivel_jugar = 1
 	cargar_nivel(preNivel_juegar_1)
 	pass # Replace with function body.
 	
@@ -32,6 +32,6 @@ func cargar_nivel(preNivel_juegar):
 	Nivel_juegar =preNivel_juegar.instance()
 	get_node("/root/Nodo_Dios").add_child(Nivel_juegar)
 	get_node("/root/Nodo_Dios/Music_menu").stop()
-	get_node("/root/Nodo_Dios").Nivel_jugar = 1
+#	get_node("/root/Nodo_Dios").Nivel_jugar = 1
 	$".".queue_free()
 	pass 
