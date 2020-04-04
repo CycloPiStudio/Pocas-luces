@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Ejecutable/Juego/Personajes/Personaje 1/Personaje1.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Ejecutable/Juego/HUD/P1_contador_segundos/P1_contador_segundos.tscn" type="PackedScene" id=2]
+[ext_resource path="res://Ejecutable/Juego/Escenarios/Niveles/Nivel1/Modelo/laberinto.tscn" type="PackedScene" id=3]
+
+[node name="Nivel1" type="Spatial"]
+
+[node name="Personaje1" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 54.6733, 0, 53.5917 )
+
+[node name="Conta_segundos" parent="." instance=ExtResource( 2 )]
+
+[node name="laberinto" parent="." instance=ExtResource( 3 )]
