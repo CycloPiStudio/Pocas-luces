@@ -15,7 +15,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="CycloPi_Show_Room"
+config/name="CycloPi_Pocas_luces"
 run/main_scene="res://Ejecutable/Menu/Dios/Escena_Dios.tscn"
 config/icon="res://icon.png"
 
