@@ -7,7 +7,7 @@
 [node name="Nivel1" type="Spatial"]
 
 [node name="Personaje1" parent="." instance=ExtResource( 1 )]
-transform = Transform( 0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 54.6733, 0, 53.5917 )
+transform = Transform( -0.136319, 0, -0.146346, 0, 0.2, 0, 0.146346, 0, -0.136319, 54.6733, 0, 53.5917 )
 
 [node name="Conta_segundos" parent="." instance=ExtResource( 2 )]
 
